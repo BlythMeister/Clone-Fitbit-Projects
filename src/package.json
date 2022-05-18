@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.1.0"
+  },
+  "fitbit": {
+    "appUUID": "1317ee92-b3ed-48b7-8d96-bf4b07005501",
+    "appType": "clockface",
+    "appDisplayName": "Eiffel - Stats Heavy - Clockface",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate",
+      "access_internet",
+      "access_calendar"
+    ],
+    "buildTargets": [
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "My Clock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

@@ -1,0 +1,256 @@
+#root {
+  viewport-fill: black;
+  fill: gold;
+}
+
+#background {
+  x: 0;
+  y: 0;
+  width:100%;
+  height:100%;
+  fill:none;
+}
+
+#torch {
+  x: 0;
+  y: 0;
+  width:100%;
+  height:100%;
+  opacity: 0;
+  fill:white;
+}
+
+#clock{
+  y: 180;
+}
+
+#time-hour {
+  font-size: 75;
+  font-family: Barlow-Bold;
+  text-length: 10;
+  text-anchor: end;
+  fill: white;
+  x: 100%-5%-159;
+  y: 5;
+  display: none;
+}
+
+#time-colon {
+  font-size: 43;
+  font-family: Barlow-Bold;
+  text-length: 1;
+  text-anchor: end;
+  fill: white;
+  x: 100%-0%-156;
+  y: -10;
+  display: none;
+}
+
+#time-minute {
+  font-size: 75;
+  font-family: Barlow-Bold;
+  text-length: 10;
+  text-anchor: end;
+  fill: white; 
+  x: 100%-5%-60;
+  y: 5;
+  display: none; 
+}
+
+#am-pm {
+  font-size: 20;
+  font-family: Barlow-Bold;
+  text-length: 15;
+  text-anchor: end;
+  x: 100%-10%;
+  y: -25;
+  fill: white;
+  display: none;
+}
+
+#second {
+  font-size: 20;
+  font-family: Barlow-Bold;
+  text-length: 15;
+  text-anchor: end;
+  x: 100%-10%;
+  y:2;
+  fill: white;
+  display: none;
+}
+
+#bmr-zone {
+  font-size: 25;
+  font-family: Tungsten-Medium;
+  text-length: 10;
+  text-anchor: end;
+  fill: white;
+  x: 100%-10%-153;
+  y: 25;
+  display: none;
+}
+
+#bmi-zone {
+  font-size: 25;
+  font-family: Tungsten-Medium;
+  text-length: 10;
+  text-anchor: end;
+  fill: white; 
+  x: 100%-10%-295;
+  y: 25;
+  display: none; 
+}
+
+#hr {
+  x: 8%;
+  y: 50;    
+}
+
+#hr-count {
+  text-anchor: start;
+  font-size: 30;
+  font-family: Tungsten-Medium;
+  fill: #969696;
+  text-length: 120;
+  x: 40;
+  y: 10;
+}
+
+#hr-zone {
+  text-anchor: start;
+  font-size: 20;
+  font-family: Tungsten-Medium;
+  fill: #969696;
+  text-length: 120;
+  x: 40;
+  y: 30;
+  display: none;
+}
+
+#hr-icon-systole {
+  fill: crimson;
+  width: 33;
+  height: 33;
+  x:-1;
+  y:-15;
+}
+
+#hr-icon-diastole {
+  fill: crimson;
+  width: 35;
+  height: 35;
+  x:-2;
+  y:-17;
+}
+
+#battery {
+  display: none;
+  width: 50;
+  height: 20;
+  x:100%-60;
+  y:55;
+}
+
+.battery-icon {
+  width: 25;
+  height: 25;
+  x:10;
+  y:-18;
+}
+
+#battery-percent {
+  text-anchor: end;
+  font-size: 30;
+  font-family: Tungsten-Medium;
+  fill: white;
+  x: 8;
+  y: 5;
+  text-length: 10;
+}
+
+#calendar {
+  display:inline;
+  x: 0;
+  y: 78;
+}
+
+#day {
+  x: 50%;
+  y: 0;
+  font-size: 20;
+  text-anchor: middle;
+  font-family: Barlow-Regular;
+  text-length: 120;
+  fill: #969696;
+}
+
+#date {
+  x: 50%;
+  y: 20;
+  font-size: 20;
+  text-anchor: middle;
+  font-family: Barlow-Regular;
+  text-length: 120;
+  fill: #969696;
+}
+
+
+
+#steps-straight {
+  display: "none";
+}
+
+#distance-straight {
+  display: "none";
+}
+
+#elevationGain-straight {
+  display: "none";
+}
+
+#calories-straight {
+  display: "none";
+}
+
+#activeMinutes-straight {
+  display: "none";
+} 
+
+#activeMinutesWeek-straight {
+  display: "none";
+} 
+
+#battery-straight {
+  display: "none";
+}
+ 
+
+#bm {
+  display: "none";
+}
+
+
+.icon {
+  width: 26;
+  height: 26;
+  x:-5;
+  y:-10;
+}
+
+.count {
+  font-size: 33;
+  x: 26;
+  y: 15;
+  text-length: 10; 
+  font-family: Tungsten-Medium;
+}
+
+.line {
+  width: 28%;
+  height: 5;
+  x:0;
+  y:22;
+}
+
+
+

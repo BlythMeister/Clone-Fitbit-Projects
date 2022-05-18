@@ -1,0 +1,83 @@
+msgid "bmi"
+msgstr "BMI"
+
+msgid "bmr"
+msgstr "BMR"
+
+msgid "out-of-range"
+msgstr ""
+
+msgid "fat-burn"
+msgstr "Fat Burn"
+
+msgid "cardio"
+msgstr "Cardio"
+
+msgid "peak"
+msgstr "Peak"
+
+msgid "below-custom"
+msgstr "Low"
+
+msgid "custom"
+msgstr "OK"
+
+msgid "above-custom"
+msgstr "High"
+
+msgid "month-short-0"
+msgstr "Jan"
+
+msgid "month-short-1"
+msgstr "Feb"
+
+msgid "month-short-2"
+msgstr "Mar"
+
+msgid "month-short-3"
+msgstr "Apr"
+
+msgid "month-short-4"
+msgstr "May"
+
+msgid "month-short-5"
+msgstr "Jun"
+
+msgid "month-short-6"
+msgstr "Jul"
+
+msgid "month-short-7"
+msgstr "Aug"
+
+msgid "month-short-8"
+msgstr "Sep"
+
+msgid "month-short-9"
+msgstr "Oct"
+
+msgid "month-short-10"
+msgstr "Nov"
+
+msgid "month-short-11"
+msgstr "Dec"
+
+msgid "day-0"
+msgstr "Sun"
+
+msgid "day-1"
+msgstr "Mon"
+
+msgid "day-2"
+msgstr "Tue"
+
+msgid "day-3"
+msgstr "Wed"
+
+msgid "day-4"
+msgstr "Thu"
+
+msgid "day-5"
+msgstr "Fri"
+
+msgid "day-6"
+msgstr "Sat"
